@@ -1,4 +1,6 @@
 
+---
+
 ```markdown
 # 🧘‍♂️ PainTrack – Get Things Done or Pay the Price
 
@@ -104,3 +106,5 @@ MIT License. See `LICENSE` file for details.
 > “Discipline equals freedom. And PainTrack makes sure you stick to your word.”  
 > — The PainTrack Team
 ```
+
+---
