@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    image: auth
+    build:
+      context: ./backend/auth/
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/auth/app:/code/app
+    environment:
+      - PYTHONUNBUFFERED=1
