@@ -1,8 +1,7 @@
 # app/main.py
 from fastapi import FastAPI
+from auth.app.routes import router
 
-app = FastAPI()
+app = FastAPI(title="Auth API", version="1.0.0")
 
-@app.get("/")
-def read_root():
-    return {"Message": "Hello from Praveen's Docker + FastAPI!"}
+app.include_router(router)
